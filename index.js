@@ -2,7 +2,7 @@
 
 function isPalindrome(str) {
 
-    let j=str.length-1
+    let j=str.length-1;
     for(let i=0 ;i<str.length/2;i++){
  if (str[i] != str[j]) {
 
@@ -23,6 +23,9 @@ let str3 ='civic';
 console.log(isPalindrome(str1));
 console.log(isPalindrome(str2));
 console.log(isPalindrome(str3));
+
+
+
 
 // let's try another method
 
