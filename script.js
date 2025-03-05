@@ -35,4 +35,19 @@ console.log("max = " +max);
 //   output will be 9
 
 
+// finding min value of array without using bulit-in method 
+
+
+const arr1=[67,-43,-7,9,752,689,10,0,];
+let min =0;
+for(i=0;i<arr1.length;i++){
+if (arr1[i]<min) {
+    min =arr1[i];
+    
+}
+
+}
+console.log("min =" +min);      
+//   output will be -43
+
  
