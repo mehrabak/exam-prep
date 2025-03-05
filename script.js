@@ -18,4 +18,21 @@ if (arr[i]>arr[j]) {
 
 console.log(arr);
 
+// finding max value of array without using bulit-in method 
+
+const array=[5,7,9,3,8,1];
+
+let max=array[0]; 
+
+for(i=0;i<array.length;i++){
+    if (array[i]>max) {
+        max =array[i];
+        
+    }
+}
+ 
+console.log("max = " +max); 
+//   output will be 9
+
+
  
